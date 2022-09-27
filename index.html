@@ -1,12 +1,84 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Excursion</title>
         <style>
-            
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background: black;
+                font-family: Verdana, sans-serif;
+            }
+            .header {
+                font-size: 50px;
+                color: white;
+                text-align: center;
+                margin-top: 16px;
+                margin-bottom: 32px;
+            }
+            .sub-header {
+                font-size: 42px;
+                font-weight: 300;
+                color: white;
+                text-align: center;
+                margin-bottom: 32px;
+            }
+            .text {
+                font-size: 21px;
+                color: gray;
+                text-align: center;
+                margin-bottom: 16px;
+            }
+            .download-link {
+                color: aquamarine;
+                font-size: 16px;
+                text-align: center;
+                margin-bottom: 16px;
+            }
+            .phone-video {
+                margin-bottom: 32px;
+            }
+            .landscape-image {
+                margin-bottom: 16px;
+            }
+            .phone-icon-image {
+                margin-bottom: 32px;
+            }
+            .footer {
+                text-align: right;
+                color: gray;
+                width: 100%;
+                margin-top: 16px;
+            }
         </style>
     </head>
     <body>
-        
+        <div class="header">Discover hidden places in the world around you</div>
+        <a class="download-link" href="https://google.com"
+            >Download Excursion (Coming soon)</a
+        >
+        <video class="phone-video" width="350" autoplay muted>
+            <source src="excursion.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="sub-header">Your personal travel guide</div>
+        <div class="text">
+            Excursion remembers places you like, and recommends new points
+            interest around you.
+        </div>
+
+        <img class="landscape-image" src="landscape.png" />
+
+        <img class="phone-icon-image" src="phone-icon.png" />
+
+        <div class="sub-header">Coming Soon for iPhone and Android</div>
+
+        <a class="download-link" href="https://google.com"
+            >Download Excursion (Coming soon)</a
+        >
+
+        <div class="footer">&copy; Excursion</div>
     </body>
 </html>
